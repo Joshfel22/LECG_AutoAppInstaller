@@ -1,0 +1,59 @@
+{
+	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
+	"CreationDate" : "2023-02-11T14:31:17.282-00:00",
+	"Sources" : 
+	[
+		{
+			"Packages" : 
+			[
+				{
+					"PackageIdentifier" : "Google.Chrome"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.Office"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.Teams"
+				}
+			],
+			"SourceDetails" : 
+			{
+				"Argument" : "https://cdn.winget.microsoft.com/cache",
+				"Identifier" : "Microsoft.Winget.Source_8wekyb3d8bbwe",
+				"Name" : "winget",
+				"Type" : "Microsoft.PreIndexed.Package"
+			}
+		},
+		{
+			"Packages" : 
+			[
+				{
+					"PackageIdentifier" : "XPDP273C0XHQH2"   
+				},
+				{
+					"PackageIdentifier" : "9PB2MZ1ZMB1S"   
+				},
+				{
+					"PackageIdentifier" : "XPDM1ZW6815MQM"   
+				},
+				{
+					"PackageIdentifier" : "XPDM17HK323C4X"   
+				},
+				{
+					"PackageIdentifier" : "XP99J3KP4XZ4VV"   
+				},
+				{
+					"PackageIdentifier" : "XPFFTQ037JWMHS"   
+				}
+			],
+			"SourceDetails" : 
+			{
+				"Argument" : "https://storeedgefd.dsx.mp.microsoft.com/v9.0",
+				"Identifier" : "StoreEdgeFD",
+				"Name" : "msstore",
+				"Type" : "Microsoft.Rest"
+			}
+		}
+	],
+	"WinGetVersion" : "1.4.10173"
+}
