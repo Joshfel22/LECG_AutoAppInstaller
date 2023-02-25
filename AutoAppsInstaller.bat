@@ -22,11 +22,12 @@ SET /P M=Type 1, 2, or 3 then press ENTER:
 IF %M%==1 GOTO WEBROOT
 IF %M%==2 GOTO TREND
 IF %M%==3 GOTO UPDATE
-exit
+echo Invalid input, skipping to updates...
+GOTO UPDATE
 :WEBROOT:
-call "%where%\AVs\AV - Webroot.bat"
+call "%where%\AVs\Webroot.bat"
 :TREND:
-call "%where%\AVs\AV - Trend.bat"
+call "%where%\AVs\Trend.bat"
 :UPDATE:
 echo ...
 echo Do you want to update these Apps?
