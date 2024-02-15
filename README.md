@@ -4,7 +4,7 @@ This is a batch script that I made using the Windows CLI tool call "[winget](htt
 ## How to use the AutoInstaller batch script.
 The script talks to other batch files and uses the "call" function quite a lot, so when using it it's either recommended to keep the USB that it's installed on or copy and place these files to somewhere on the computer.
 
-To use this script open the shortcut labelled "AutoAppInstaller - Admin" (this is to avoid constantly having to approve administration prompts)
+To use this script right click on the file "AutoAppInstaller.bat" and run it as admin (this is to avoid constantly having to approve administration prompts)
 
 When you first run the script, it will give you the prompt
 
