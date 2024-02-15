@@ -1,2 +1,2 @@
 # AutoInstaller
-This is a batch script that I made using the windows CID tool call "winget"
+This is a batch script that I made using the windows CLI tool call "winget"
